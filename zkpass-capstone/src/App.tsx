@@ -10,8 +10,8 @@ export type TransgateError = {
 };
 
 const App = () => {
-  const [appId, setAppId] = useState<string>("f2d25a48-7906-4ed3-8c20-b08b86cb8253");
-  const [schemaId, setSchemaId] = useState<string>("b5519ddf87084df18decd525955f682a");
+  const [appId, setAppId] = useState<string>("1864dc44-23a4-4767-91f4-94cd1b2c9203");
+  const [schemaId, setSchemaId] = useState<string>("fd347167bfe549ecb322ecc9bdff710b");
   const [result, setResult] = useState<Result | undefined>(undefined);
 
   const requestVerifyMessage = async (
